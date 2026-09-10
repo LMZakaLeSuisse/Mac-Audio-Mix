@@ -4,3 +4,6 @@
 
 # L’application complète est générée localement depuis les sources.
 Source Audio.app/
+
+# Image source locale haute définition ; l’icône macOS optimisée est versionnée.
+Assets/AppIcon.png

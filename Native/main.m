@@ -230,9 +230,8 @@ static NSColor *RGB(CGFloat red, CGFloat green, CGFloat blue, CGFloat alpha) {
     content.autoresizingMask = NSViewWidthSizable | NSViewHeightSizable;
     self.window.contentView = content;
 
-    NSImageView *brandIcon = [NSImageView imageViewWithImage:[NSImage imageWithSystemSymbolName:@"waveform.path.ecg.rectangle.fill" accessibilityDescription:@"Source Audio"]];
-    brandIcon.contentTintColor = RGB(242, 48, 54, 1);
-    brandIcon.symbolConfiguration = [NSImageSymbolConfiguration configurationWithPointSize:30 weight:NSFontWeightSemibold];
+    NSImageView *brandIcon = [NSImageView imageViewWithImage:NSApp.applicationIconImage];
+    brandIcon.imageScaling = NSImageScaleProportionallyUpOrDown;
     brandIcon.translatesAutoresizingMaskIntoConstraints = NO;
     NSTextField *kicker = [self label:@"MAC AUDIO ROUTER" size:10 weight:NSFontWeightBold];
     kicker.textColor = RGB(242, 48, 54, 0.92);

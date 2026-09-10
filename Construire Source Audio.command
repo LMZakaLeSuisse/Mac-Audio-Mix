@@ -5,6 +5,7 @@ cd "${0:A:h}"
 APP="Source Audio.app"
 mkdir -p "$APP/Contents/MacOS" "$APP/Contents/Resources"
 cp "Build/Info.plist" "$APP/Contents/Info.plist"
+cp "Assets/AppIcon.icns" "$APP/Contents/Resources/AppIcon.icns"
 
 clang -fobjc-arc -Wall -Wextra \
   -framework Cocoa \
