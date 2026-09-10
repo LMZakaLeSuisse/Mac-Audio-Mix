@@ -2,6 +2,5 @@
 .build/
 .build-cache/
 
-# L’exécutable est reconstruit localement avec le script fourni.
-Source Audio.app/Contents/MacOS/
-Source Audio.app/Contents/_CodeSignature/
+# L’application complète est générée localement depuis les sources.
+Source Audio.app/

@@ -4,12 +4,12 @@ Une application macOS native pour choisir rapidement le périphérique d’entr�
 
 ## Télécharger l’application prête à l’emploi
 
-Ne télécharge pas uniquement le dossier `Source Audio.app` affiché par GitHub : son exécutable n’est pas présent dans l’affichage du code source.
-
-1. Télécharge le fichier **Source-Audio-macOS.zip** depuis la racine du dépôt.
+1. Télécharge le fichier **TELECHARGER-Source-Audio-macOS.zip** depuis la racine du dépôt.
 2. Décompresse-le en double-cliquant dessus.
 3. Fais un clic droit sur **Source Audio.app**, puis choisis **Ouvrir**.
 4. Confirme une seconde fois avec **Ouvrir** lors de la première utilisation.
+
+N’ouvre pas un ancien dossier `Source Audio.app` provenant d’un téléchargement précédent : il était incomplet. Utilise uniquement l’application contenue dans la nouvelle archive ci-dessus.
 
 Le clic droit est nécessaire au premier lancement, car cette version personnelle n’est pas signée avec un compte Apple Developer. Les lancements suivants se font normalement par double-clic.
 
