@@ -1,0 +1,7 @@
+.DS_Store
+.build/
+.build-cache/
+
+# L’exécutable est reconstruit localement avec le script fourni.
+Source Audio.app/Contents/MacOS/
+Source Audio.app/Contents/_CodeSignature/
