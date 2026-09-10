@@ -13,5 +13,10 @@ clang -fobjc-arc -Wall -Wextra \
 
 codesign --force --deep --sign - "$APP"
 
+# Archive prête à télécharger : elle conserve l’exécutable et ses permissions.
+rm -f "Source-Audio-macOS.zip"
+ditto -c -k --sequesterRsrc --keepParent "$APP" "Source-Audio-macOS.zip"
+
 echo "Source Audio est prêt : $PWD/$APP"
+echo "Archive de distribution : $PWD/Source-Audio-macOS.zip"
 open "$APP"
